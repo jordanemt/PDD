@@ -1,5 +1,4 @@
 ﻿using PDD.Domain;
-using PDD.Fabrica;
 using PDD.Interface;
 using PDD.Visitor;
 using System;
@@ -11,8 +10,8 @@ namespace PDD
     {
         static void Main(string[] args)
         {
-            IPersonaje guerrero = PersonajeFabrica.GetPersonaje(PersonajeFabrica.GUERRERO);
-            IPersonaje mago = PersonajeFabrica.GetPersonaje(PersonajeFabrica.MAGO);
+            Guerrero guerrero = new Guerrero();
+            Mago mago = new Mago();
             Console.WriteLine("====================");
             Console.ReadLine();
 
@@ -35,8 +34,23 @@ namespace PDD
             Console.WriteLine("====================");
             Console.ReadLine();
 
-            guerrero.SetNivel(6);
-            mago.SetNivel(6);
+            guerrero.Nivel = 5;
+            mago.Nivel = 5;
+            Console.WriteLine("Guerrero y Mago suben a nivel 5");
+            Console.WriteLine("====================");
+            Console.ReadLine();
+
+            visitor.visit(personajes);
+            Console.WriteLine("====================");
+            Console.ReadLine();
+
+            guerrero.Atacar();
+            mago.Atacar();
+            Console.WriteLine("====================");
+            Console.ReadLine();
+
+            mago.Nivel = 10;
+            Console.WriteLine("Mago sube a nivel 10");
             Console.WriteLine("====================");
             Console.ReadLine();
 

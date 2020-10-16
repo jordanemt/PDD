@@ -23,8 +23,8 @@ namespace PDD.FabricaLigera
             {
                 if (arma.Nombre.Equals(nombre))
                 {
-                    Console.WriteLine("El arma " + nombre + " ya existe");
-                    Console.WriteLine("Se obtiene el arma de la lista");
+                    Console.WriteLine(" - El arma " + nombre + " ya existe");
+                    Console.WriteLine(" - Se obtiene el arma de la lista");
                     return arma;
                 }
             }
@@ -53,8 +53,8 @@ namespace PDD.FabricaLigera
                     return null;
             }
 
-            Console.WriteLine("El arma " + nombre + " no existe");
-            Console.WriteLine("Se crea el arma y se añade a la lista");
+            Console.WriteLine(" - El arma " + nombre + " no existe");
+            Console.WriteLine(" - Se crea el arma y se añade a la lista");
             director.Construir(constructor);
             armas.Add(constructor.GetArma());
             return constructor.GetArma();

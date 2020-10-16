@@ -14,6 +14,7 @@ namespace PDD.Domain
         public Mago()
         {
             Nivel = 1;
+            Console.WriteLine("Mago fue creado");
         }
 
         public void Atacar()
@@ -26,12 +27,6 @@ namespace PDD.Domain
             {
                 Console.WriteLine("Mago ataca con " + Arma.Nombre + ", inflinge " + (Nivel * Arma.Danno) + " de daño");
             }
-        }
-
-        public void SetNivel(int nivel)
-        {
-            Nivel = nivel;
-            Console.WriteLine("El nivel del Mago aumenta a " + Nivel);
         }
 
         public void Accept(IVisitorPersonaje visitor)

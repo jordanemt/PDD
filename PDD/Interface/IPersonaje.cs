@@ -6,7 +6,6 @@ namespace PDD.Interface
 {
     interface IPersonaje
     {
-        public void SetNivel(int nivel);
         public void Atacar();
         public void Accept(IVisitorPersonaje visitor);
     }

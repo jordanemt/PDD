@@ -18,13 +18,15 @@ namespace PDD.Visitor
 
         public void visit(Guerrero guerrero)
         {
-            if (guerrero.Nivel < 4)
+            if (guerrero.Nivel < 5)
             {
+                Console.WriteLine("Visitor solicita la Daga en la fabrica");
                 guerrero.Arma = fabricaLigera.getArma("Daga");
                 Console.WriteLine("Visitor asigna Daga a Guerrero");
             }
             else 
             {
+                Console.WriteLine("Visitor solicita la Espada en la fabrica");
                 guerrero.Arma = fabricaLigera.getArma("Espada");
                 Console.WriteLine("Visitor asigna Espada a Guerrero");
             }
@@ -32,13 +34,15 @@ namespace PDD.Visitor
 
         public void visit(Mago mago)
         {
-            if (mago.Nivel < 8)
+            if (mago.Nivel < 10)
             {
+                Console.WriteLine("Visitor solicita el arma Fuego en la fabrica");
                 mago.Arma = fabricaLigera.getArma("Fuego");
                 Console.WriteLine("Visitor asigna Fuego a Mago");
             }
             else
             {
+                Console.WriteLine("Visitor solicita el arma Rayo en la fabrica");
                 mago.Arma = fabricaLigera.getArma("Rayo");
                 Console.WriteLine("Visitor asigna Rayo a Mago");
             }
