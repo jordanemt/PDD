@@ -1,0 +1,13 @@
+C:\Users\Jordan\source\repos\PDD\PDD\bin\Debug\netcoreapp3.1\PDD.exe
+C:\Users\Jordan\source\repos\PDD\PDD\bin\Debug\netcoreapp3.1\PDD.deps.json
+C:\Users\Jordan\source\repos\PDD\PDD\bin\Debug\netcoreapp3.1\PDD.runtimeconfig.json
+C:\Users\Jordan\source\repos\PDD\PDD\bin\Debug\netcoreapp3.1\PDD.runtimeconfig.dev.json
+C:\Users\Jordan\source\repos\PDD\PDD\bin\Debug\netcoreapp3.1\PDD.dll
+C:\Users\Jordan\source\repos\PDD\PDD\bin\Debug\netcoreapp3.1\PDD.pdb
+C:\Users\Jordan\source\repos\PDD\PDD\obj\Debug\netcoreapp3.1\PDD.csprojAssemblyReference.cache
+C:\Users\Jordan\source\repos\PDD\PDD\obj\Debug\netcoreapp3.1\PDD.AssemblyInfoInputs.cache
+C:\Users\Jordan\source\repos\PDD\PDD\obj\Debug\netcoreapp3.1\PDD.AssemblyInfo.cs
+C:\Users\Jordan\source\repos\PDD\PDD\obj\Debug\netcoreapp3.1\PDD.csproj.CoreCompileInputs.cache
+C:\Users\Jordan\source\repos\PDD\PDD\obj\Debug\netcoreapp3.1\PDD.dll
+C:\Users\Jordan\source\repos\PDD\PDD\obj\Debug\netcoreapp3.1\PDD.pdb
+C:\Users\Jordan\source\repos\PDD\PDD\obj\Debug\netcoreapp3.1\PDD.genruntimeconfig.cache
